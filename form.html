@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple form</title>
+
+</head>
+<style>
+    body{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmBIgYj1yY-r7Fh2ZwHmaAfq8tGJTXxy5pEg&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmBIgYj1yY-r7Fh2ZwHmaAfq8tGJTXxy5pEg&usqp=CAU');
+         background-size: cover;
+        backface-visibility: visible;
+        background-repeat: no-repeat;
+    }
+    h1{ text-align:center}
+</style>
+<body>
+    <h1 >EMAIL REGISTRATION</h1>
+    <form action="" method="post">
+        
+        <label for="fname" id="fname">First name:</label>
+        <input type="text" id="fname" placeholder="enter first name" required> <br><br>           
+        <label for="lname" id="lname">Last name:</label>
+        <input type="text" placeholder="enter last name" required><br><br>
+        <label for="gender">Choose gender:</label>
+        <select name="Gender">
+            <option value="Male">Male</option>
+            <option value="female">Female</option>
+            
+        </select><br>
+        <br>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob"><br><br>
+        <label for="mobile">Phone no</label>
+        <input type="tel" placeholder=" enter mobile number" max="10"required><br><br>
+        <label for="email" id="email">EMAIL</label>
+        <input type="email" id="email" placeholder="email" required> <br><br>           
+        <label for="password" max="8">Password</label>
+        <input type="password" placeholder="password"> <br><br>
+        <button type="button" onclick="alert('check the details again')">click me!</button><br><br>
+        <input type="submit" onclick="alert('your details are submitted')" name="submit">
+
+        
+    </form><br>
+
+    <table style="width: 60%;">
+    <tr>
+        <th>name</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <td>bhavana</td>
+        <td>20</td>
+    </tr>
+        <tr>
+        <td>sanjana</td>
+        <td>18</td>
+    </tr>
+   </table><br>
+   <audio controls>
+    <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+
+   </audio><br>
+
+<iframe width="900px" height="900px" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe><br>
+
+   <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+  
+   
+</body>
+</html>
